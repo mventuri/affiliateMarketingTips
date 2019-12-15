@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+
+    <meta name="description" content="Affiliate Marketing Tips">
+    <meta name="author" content="Marco Venturi">
+
+    <title>Affiliate marketing Tips by Marco Venturi</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/dragdrop.css" rel="stylesheet">
+	<!--CSS Form-->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/stylesheet.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+	#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}		
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<!--Pie-->
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+	<script type="text/javascript" src="js/pie.js"></script>	
+	<!--Form-->
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	<script>
+	
+	
+	function allowDrop(ev) {
+    ev.preventDefault();
+	}
+
+	function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+	function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+	}
+</script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Affiliate Marketing Tips</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#beginning">Let's get it started</a>
+                    </li>
+                    <li>
+                        <a href="#tools">Tools</a>
+                    </li>
+                    <li>
+                        <a href="#success">Successful stories</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+	<!--Jumbotron-->
+	<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1><span class="icon icon-shield"></span></h1>
+	  		 		<p>Marco's path towards Affiliate Marketing</p>
+					<a href="#mystory" class="smoothScroll btn btn-danger btn-lg" style="font-size:45px">Discover it</button></a>
+	  		 		
+	  		</header>	    
+	    </div><!-- /headerwrap -->
+	<!--/Jumbotron-->
+    <div class="container-fluid">
+		<div id="mystory" class="row">
+		  <div class="col-xs-12">
+			<h1>My story as an affiliate marketer</h1>
+			<p>After years of study, in 2013 I decided it was time for me to start my journey to become an affiliate marketer. </p>
+			<p>Wow. It all sounds very powerful and easy but my very first question was: where do I get started? I got my certificates, 
+			I studied hard and I passed exams. However, everybody knows an excellent theorical knowledge is mandatory to succeed but you have to test - and
+			improve - your skills in everyday life.</p>
+			<p>I did - and I am still doing - it. Anyway I created this page to share with you my experience and path. I'll just describe basic tips to start. I hope you'll find it useful!</p>
+		  </div>
+		</div>
+		<hr>
+		<div id="beginning" class="row">
+		  <div class="col-xs-12">
+			<h1>Kick-off: what do you sell?</h1>
+			<p>This is the very first question I asked myself. Finding a good answer is much harder than you think. I surfed the internet for months trying
+			to find a good and profitable niche. I did it and you can do it as well. There are just a few questions, and right answers, you must find.</p>
+			<h3> What do you like?</h3>
+			<p>When you sell - online or offline - you need to know your products and niches. Why? Becuase you're going to talk about it <strong>a lot!</strong>Where? When? We'll see that in next steps.</p>
+			<p>It can be anything: a hobby, what you studied, your job. But you must be an expert of that field.</p>
+			<p>Good. Let's start thinking about a niche you can handle: write down <strong>at least three topics you master.</strong></p>
+			<!--Form-->
+			<div style="text-align:center"><img src="img/trophy.png" alt="Sale" class="sale"/>
+				
+			</div>
+			<div class="col-xs-12 input">
+			
+			<input type="text" class="custinput" id="item-input" placeholder="Enter a topic..." >
+			<button type="submit" class="btn" style="color: #ffffff">add</button>
+			</div>
+			<div class="col-xs-12 list">
+			<h3>Your topics:</h3>
+				<table class="col-xs-12 items">
+					<thead>
+						<tr>
+						<th class="col-xs-12 edit" colspan="3"><span>edit</span></th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+					</table>
+					</div>
+					
+
+
+			<!--Form end-->
+			&nbsp;
+			<h3> You're not alone</h3>
+			<p>Micheal Jackson was right. The world's full of people and... They probably have different interests than you!</p>
+			<p>I know what you're thinking. I am not telling you to trash your list and go away. I just want you to know <strong>you also need to find an interested audience</strong>
+			to talk to! <strong>You must build your audience since the beginning!</strong> You have to know what people search online and how often. How? The internet is full of tools to get it. The most famous - and my favorite - one is <a target="_blank" href="https://adwords.google.com/KeywordPlanner?hl=it">Google Keyword Planner</a>.</p>
+			<h3>Is it big enough or... Too big?</h3>
+			<p>Ok. This is the toughest point of this stage. You understood what you like and you also know a lot of people like it as well. I guess you're  aware of the fact
+			thousands of people sell stuff online. They're your competitors.</p>
+			<p>At this stage you need to understand if there's too much competition in your niche or if the niche you chose is too small and your business won't be scalable.</p>
+			<p>I mean... It's better if you don't join a niche where big and famous websites invest millions of dollars nor niches followed by very few people. You need to find the
+			<strong>correct balance between competition and audience volume</strong>. How? It is up to you. Don't forget you're an <strong>enterpreneur</strong> and you're supposed to take risks!</p>
+			
+		  </div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="chartdiv"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="tools" class="col-xs-12">
+				<h1>Even world's best painter needs a brush to get famous!</h1>
+				<p>You're a master of your niche and you know there are enough people to create an audience. Awesome! Wait... How do you get known?!</p>
+				<h3>Write, Write and... Write!</h3>
+				<p>The best way to share your knowledge is writing about it. And the best way to write about your topic on the internet is running a blog!</br>
+				Aren't you a coder? Don't you know how to build a page? Not a big trouble. You can use a Content Management System to run your blog! There are plenty
+				of them online. Anyway, I suggest you to join the <a target="_blank" href="https://wordpress.org/">Wordpress</a> community. It's easy to use and thousands of developers worldwide work on it. Furthermore,
+				if you need support, you can get my <a href="mailto:mventuri@hotmail.it">help</a>! ;)</p>
+				<h3>Advertise!</h3>
+				<p>If people doesn't find you, you need to find them! Invest some money - believe me if I tell you big budgets are not necessary - on Facebook Ads,
+				Google ads, Bing ads and so on. You can reach people worldwide and make great profits!</p>
+				<h3>Emails!</h3>
+				<p>I want to be clear. Don't spam. It bothers you the same way bothers anybody. <strong>Build your list</strong> and provide your audience with reliable 
+				and high quality content. They must be happy to see your message in their mailbox! Share your experience and knowledge with them!</p>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-xs-12">
+                <h1>Your Turn</h1>
+				<p>I want to know your opinion. Drag these three strategies we discussed from the most important (left) to the least important one (right).</p>
+                <!--Drag&Drop-->
+				
+				<div class="row">
+					<div class="col-xs-12 col-xs-offset-3">
+				
+				
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				
+				</div>
+				
+				</div>
+				</br>
+				<div class="row">
+				<div class="col-xs-12 col-xs-offset-3">
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<img id="drag1" src="img/facebook.png" draggable="true" ondragstart="drag(event)" width="80" height="80">
+				</div>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<img id="drag2" src="img/wordpress.png" draggable="true" ondragstart="drag(event)" width="80" height="80">
+				</div>
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<img id="drag3" src="img/mail.png" draggable="true" ondragstart="drag(event)" width="80" height="80">
+				</div>
+				</div>
+				</div>
+				
+					
+            </div>
+        </div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Where do you find your products</h1>
+					<p>Great. You found a niche and you found a way - or several ones - to sell your products. There's now one more step to face:
+					where do you find good products and, first of all, <strong>reliable suppliers</strong> to work with? You can find on the internet
+					hundreds of platforms where you can deal with suppliers. They're basically intermediaries between you, the publisher, and the supplier, the merchant. You'll
+					find marketing tools and a commission management system. I worked with several partners such as <a target="_blank" href="https://affiliate-program.amazon.com/welcome">Amazon</a>, <a target="_blank" href="http://www.tradedoubler.com">Tradedoubler</a>, <a target="_blank" href="http://www.zanox.com">Zanox</a> and <a target="_blank" href="http://site.clickpoint.com">Clickpoint</a>.
+					Have a look at their websites.</p>
+			</div>
+		</div>
+		<hr>
+		<div id="success" class="row">
+			
+            <div class="col-xs-12">
+                <h1>My successful stories</h1>
+				<p>I talked for a while about how you should start your journey as an affiliate marketer. I want to show two of my successful projects just to tell
+				you that hard work and perseverance can take you to a brillant future and successful business even if you start from scratch. As I did.
+				Here there are my two top affiliate marketing websites:</p>
+				<div class="col-md-6 text-center">
+                <h1>TheSitComPost</h1>
+				<p style="text-align:center;"><img src="img/thesitcompost.png"></p>
+				<p style="text-align:center;">Niche: TV-Shows, Series, Movies and Sit-coms</p>
+				<p>My very first project as an affiliate marketer. Now I turned this website into a dropshipping one. We'll 
+				talk about dropshipping very soon! :)</p>
+				<a target="_blank" href="http://www.thesitcompost.com/" class="btn btn-warning" role="button">Check it out</a>
+				</div>
+				<div class="col-md-6 text-center">
+                <h1>CosplayZoom</h1>
+				<p style="text-align:center;"><img src="img/cosplayzoom.png"></p>
+				<p style="text-align:center;">Niche: Cosplay</p>
+				<p>Probably my top project as an affiliate marketer. Thousands of users visit my website everyday to get their cosplays of their favorite hero!</p>
+				<a target="_blank" href="http://www.cosplayzoom.com/" class="btn btn-warning" role="button">Check it out</a>
+				
+				</div>
+				</br>&nbsp;&nbsp;
+                <p style="text-align:center;">After 3 years I sold products in these countries:</p>
+            
+				
+			</div>
+			
+			<div><img src="img/world.png" class="img-responsive center-block" alt="World"></div>
+			
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                
+                &nbsp;&nbsp;
+				<p style="text-align:center;">Believe me if I tell you can do the same!</p>
+            </div>
+        </div>
+		<hr>
+		<div class="row">
+            <div class="col-xs-12 text-center">
+                
+              <h1>It's up to you now!</h1>
+				<p>I briefly summarized the first steps you need to take to become a good affiliate marketer. The path is long and hard but I'm sure
+				you're gonna make it if you work hard and believe in you project! If you want to discuss with me about your ideas and plans, follow me on social
+				networks or email me at mventuri[at]hotmail.it. Good luck and I hope to hear from you soon!</p>
+				<a target="_blank" href="https://it.linkedin.com/in/marcoventuri"><i class="fa fa-linkedin fa-2x"></i></a>&nbsp;&nbsp; 
+				<a target="_blank" href="https://twitter.com/marcoventuri10"><i class="fa fa-twitter fa-2x"></i></a>   
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+	<!--footer-->
+	<footer id="footer" class="footer">
+      <div class="container">
+        <small>This website is proudly created by <a target="_blank" href="http://marcoventuriwebdeveloper.com">Marco Venturi</a></small>
+      </div>
+    </footer>
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<!--Form-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+	<script src="js/main.js"></script>
+	
+	<!--Form Js-->
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	
+</body>
+
+</html>
